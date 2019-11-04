@@ -16,5 +16,7 @@ steps:
 - name: 'gcr.io/cloud-builders/yarn'
   args: ['install']
   timeout: 500s
+-name: 'gcr.io/cloud-builders/yarn'
+  args: ['start']
 
 # [END app_yaml]
